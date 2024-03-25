@@ -1,8 +1,22 @@
 body {
-    background-color: white;
-    border-color: black;
+    background-color: 'white';
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    border-bottom: solid;
+    border-color: black;
+}
+
+section {
+    border: solid;
+    border-color: black;
+}
+
+footer {
+    border-top: solid;
+    border-color: black;
 }
 
 h1 {
