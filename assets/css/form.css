@@ -1,6 +1,5 @@
 header {
     padding: 20px;
-    border-bottom: solid black;
 }
 
 header h1 {
@@ -34,7 +33,6 @@ section {
 
     width: 90%;
     height: 100vh;
-    border: solid black;
 
     display: flex;
     flex-direction: column;
