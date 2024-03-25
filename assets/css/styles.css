@@ -1,22 +1,33 @@
+@property --color1 {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: black;
+}
+
+@property --color2 {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: white;
+}
+
+
 body {
-    background-color: 'white';
-    color: black;
+    background-color: var(--color2);
+    color: var(--color1);
+    border-color: var(--color1);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
     border-bottom: solid;
-    border-color: black;
 }
 
 section {
     border: solid;
-    border-color: black;
 }
 
 footer {
     border-top: solid;
-    border-color: black;
 }
 
 h1 {
@@ -36,7 +47,7 @@ p, input, label {
 }
 
 .button {
-    background-color: black;
-    color: white;
+    background-color: var(--color1);
+    color: var(--color2);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
