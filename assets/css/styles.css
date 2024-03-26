@@ -22,8 +22,9 @@ header {
     border-bottom: solid;
 }
 
-section {
+section, article {
     border: solid;
+    border-radius: 10px;
 }
 
 footer {
