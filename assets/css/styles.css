@@ -22,8 +22,9 @@ header {
     border-bottom: solid;
 }
 
-section {
+section, article {
     border: solid;
+    border-radius: 10px;
 }
 
 footer {
@@ -44,6 +45,11 @@ h3 {
 
 p, input, label {
     font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color1);
 }
 
 .button {
