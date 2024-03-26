@@ -75,13 +75,18 @@ textarea {
         flex-direction: column;
     }
     header {
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
     nav {
         float: none;
+        margin: 0;
+    }
+    nav ul {
+        padding: 0;
     }
     nav ul li {
-        display: block;
-        text-align: center;
+        margin: 0;
     }
 }
